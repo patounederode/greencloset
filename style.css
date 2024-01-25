@@ -1,0 +1,63 @@
+body {
+    font-size: 2em;
+    font-family: 'ITC Avant Garde Gothic Pro', Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0.1em;
+    padding: 2em;
+}
+
+main, img {
+    border-radius: 1em;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+p {
+    font-size: 1.2em
+}
+
+.lenalibrary header {
+    background-color: #FBE7E8
+}
+
+.lenalibrary h3 {
+    align-content: center;
+}
+
+.locatie header {
+    background-color: #F8CBDE;
+}
+
+.locatie h2 {
+    color: #EC6FA4;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    background-color: #E3F0E4;
+    justify-content: center;
+    height: 8em;
+    width: 100%;
+}
+
+
+
+nav, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
